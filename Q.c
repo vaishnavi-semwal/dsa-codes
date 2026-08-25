@@ -40,7 +40,7 @@ void traverse(int arr[] , int *front , int *rear)
      }
      else{
        int  i=*front , j=*rear;
-        while(arr[i] != arr[j])
+        while(arr[i] <= arr[j])
         {
              printf("%d",arr[i]);
              printf("\n");
